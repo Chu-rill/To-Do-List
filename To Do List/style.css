@@ -1,0 +1,47 @@
+body {
+  background-color: lightcyan;
+}
+.content {
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 800px;
+  height: 160px;
+  margin: auto;
+  margin-top: 40px;
+}
+.input {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  font-weight: 800;
+}
+.task {
+  width: 50%;
+  height: 30px;
+}
+.task:focus {
+  outline: none;
+}
+.submit {
+  font-weight: 800;
+}
+.clear {
+  font-weight: 800;
+}
+
+.task-body {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+body li {
+  margin-right: 10px;
+}
+button {
+  width: 80px;
+  height: 30px;
+}
